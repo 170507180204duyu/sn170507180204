@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:textOn="on"
+        android:id="@+id/ch7_1_tb"
+        android:textOff="off"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:id="@+id/ch7_1_spinner"
+        android:entries="@array/strArr"
+        android:layout_height="wrap_content"></Spinner>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:id="@+id/ch7_1_spinner2"
+        android:layout_height="wrap_content"></Spinner>
+
+</LinearLayout>

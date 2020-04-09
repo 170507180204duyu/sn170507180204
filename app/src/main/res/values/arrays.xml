@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="intArr">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="strArr">
+        <item>str1</item>
+        <item>str2</item>
+        <item>str3</item>
+    </string-array>
+    <array name="commanArr">
+        <item>@drawable/img</item>
+        <item>str1</item>
+    </array>
+</resources>
