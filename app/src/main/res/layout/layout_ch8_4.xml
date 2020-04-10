@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--  android:scaleType="fitXY"将图片纵向横向平铺满屏幕-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/img"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="test"
+        android:textSize="60sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

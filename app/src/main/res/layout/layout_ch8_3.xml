@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text1"
+        android:layout_height="wrap_content" />
+    <!--多个常量之间用|-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text2"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text3"
+        android:layout_gravity="top|right"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text4"
+        android:layout_gravity="left|center_vertical"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text5"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text6"
+        android:layout_gravity="right|center_vertical"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text7"
+        android:layout_gravity="bottom|left"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text8"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="text9"
+        android:layout_gravity="bottom|right"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
