@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="1"
+    android:layout_height="match_parent">
+    <TableRow>
+        <Button android:text="button1" />
+        <Button android:text="button2" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="button3" android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="button4" android:layout_column="1"/>
+    </TableRow>
+</TableLayout>
