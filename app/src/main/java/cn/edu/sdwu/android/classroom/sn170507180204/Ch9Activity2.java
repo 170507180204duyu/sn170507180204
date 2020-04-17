@@ -137,7 +137,6 @@ public class Ch9Activity2 extends AppCompatActivity {
         category.add("category2");
         category.add("category3");
 
-
         product=new HashMap();
         ArrayList list=new ArrayList();
         HashMap map=new HashMap();
